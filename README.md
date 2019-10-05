@@ -1,10 +1,8 @@
 # Diversity of Diction
 
-This project compares the vocabularies of representative works from three groups of creative writing.  Using tools such as Python and Beautiful Soup, we were able to answer general questions such as:
+This project compares the vocabularies of representative works from three groups of creative writing.  Using tools such as Python and Beautiful Soup, we were able to answer the questions:
 
 * Which form of creative writing appears to have the broadest vocabulary?
-
-as well as specific questions such as:
 
 * What are the most commonly used words among creative writing groups?  Authors?
 
@@ -14,7 +12,11 @@ as well as specific questions such as:
 
 The three groups of creative writing chosen for comparison were: Songwriters, Poets, and Journalists.  From these, we selected five of the most successful authors, and five of their works.
 
+![images/artists_pic.jpg](images/artists_pic.jpg)
+
 After selecting a sample of works, we set off to obtain the text for analysis.  This involved a process known as "web scraping."  We identified websites containing the text of the works that we were searching for, and utilized tools such as Beautiful Soup, Python, Urllib, and Requests to scrape the webpages and parse the HTML.
+
+![images/song_url_structure.PNG](images/song_url_structure.PNG) ![images/song_scraping_snip.PNG](images/song_scraping_snip.PNG)
 
 # Data Cleaning/Processing
 
