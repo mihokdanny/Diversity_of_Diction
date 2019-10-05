@@ -12,15 +12,25 @@ This project compares the vocabularies of representative works from three groups
 
 The three groups of creative writing chosen for comparison were: Songwriters, Poets, and Journalists.  From these, we selected five of the most successful authors, and five of their works.
 
+
 ![images/artists_pic.jpg](images/artists_pic.jpg)
+
 
 After selecting a sample of works, we set off to obtain the text for analysis.  This involved a process known as "web scraping."  We identified websites containing the text of the works that we were searching for, and utilized tools such as Beautiful Soup, Python, Urllib, and Requests to scrape the webpages and parse the HTML.
 
-![images/song_url_structure.PNG](images/song_url_structure.PNG) ![images/song_scraping_snip.PNG](images/song_scraping_snip.PNG)
+
+![images/song_url_structure.PNG](images/song_url_structure.PNG)
+
+![images/song_scraping_snip.PNG](images/song_scraping_snip.PNG)
+
 
 # Data Cleaning/Processing
 
 With the text now at our disposal, we could make a plan to clean the text and extract our target data.  Below is a representation of how we used tools like RegEx to convert the blocks of text into a Python list of "regular expressions," NLTK's list of "stop words" to remove words that we considered unuseful, and NLP tasts such as converting all text to lowercase to combine otherwise identical words.  Note* This is an appropriate time to apply stemming and lemmatization.
+
+![images/process_snip1.PNG](images/process_snip1.PNG)
+![images/process_snip2.PNG](images/process_snip2.PNG)
+![images/process_snip3.PNG](images/process_snip3.PNG)
 
 The data was then loaded into a sqlite database.
 
