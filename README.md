@@ -1,9 +1,12 @@
 # Diversity of Diction
 
-This project compares the vocabularies of representative works from three groups of creative writing.  Using tools such as Python and Beautiful Soup, we were able to answer general questions such as
-- Which form of creative writing appears to have the broadest vocabulary?
-as well as specific questions like
-- What are the most commonly used words among creative writing groups?  Authors?
+This project compares the vocabularies of representative works from three groups of creative writing.  Using tools such as Python and Beautiful Soup, we were able to answer general questions such as:
+
+* Which form of creative writing appears to have the broadest vocabulary?
+
+as well as specific questions such as:
+
+* What are the most commonly used words among creative writing groups?  Authors?
 
 # Getting Started / Prerequisites
 
@@ -28,3 +31,7 @@ Using Python, pandas, and the graphing tool provided by ObservableHQ, we were ab
 1) Which form of creative writing appears to have the broadest vocabulary?
 
 2) What are the most commonly used words among creative writing groups?  Authors?
+
+![images/NLP_common_words.PNG](images/NLP_common_words.PNG)
+
+![images/NLP_words_tree_more.PNG](images/NLP_words_tree_more.PNG)
