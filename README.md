@@ -54,11 +54,11 @@ Note that the circle size represents the frequency of a word’s usage in a work
 
 # Additional Visualizations
 
-We wondered: would a higher word count necessarily result in a decrease in the ratio of unique words out of the total?  That is, in writings where choruses are common (songs and poetry), would a higher word count simply mean that the work is more repetitive?
+We wondered: would a higher word count necessarily result in a decrease in the ratio of unique words out of the total?  That is, in writings where choruses are common (songs and poetry), would a higher word count simply mean that the work is more repetitive?\
 Surprisingly, looking at the graph below we see that songs appear to become MORE repetitive as total lyrics decrease!
 
 ![images/poets_vs_songwriters_unique_ratio.png](images/poets_vs_songwriters_unique_ratio.png)
 
-What is the most commonly used word across all groups?  Can you guess?
+What is the most commonly used word across all works?  Can you guess?
 
 ![images/top_word_pie_chart.PNG](images/top_word_pie_chart.PNG)
