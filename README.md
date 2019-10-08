@@ -38,11 +38,11 @@ https://www.timesofisrael.com\
 
 # Sampling Data
 
-The three groups of creative writing chosen for comparison were: Songwriters, Poets, and Journalists.  From these, we selected five of the most successful authors, and five of their works.
+The three groups of creative writing chosen for comparison were: Songwriters, Poets, and Journalists.  From these, we selected five of the most successful authors, and five of their works.</br>
 
-![images/artists_pic.jpg](images/artists_pic.jpg)
+![images/artists_pic.jpg](images/artists_pic.jpg)</br>
 
-After selecting a sample of works, we set off to obtain the text for analysis.  This involved a process known as "web scraping."  We identified websites containing the text of the works that we were searching for, and utilized tools like Beautiful Soup, Python, Urllib, and Requests to scrape the webpages and parse the HTML.
+After selecting a sample of works, we set off to obtain the text for analysis.  This involved a process known as "web scraping."  We identified websites containing the text of the works that we were searching for, and utilized tools like Beautiful Soup, Python, Urllib, and Requests to scrape the webpages and parse the HTML.</br>
 
 ![images/song_url_structure.PNG](images/song_url_structure.PNG)
 
@@ -67,7 +67,7 @@ Using Python, pandas, and the graphing tool provided by ObservableHQ, we were ab
 
 1) Which form of creative writing appears to have the broadest vocabulary?
 
-We calculated the ratio of unique words out of the total words used for each work, then used this to make comparisons across both works and groups.  We chose to use this ratio as a method of normalization prior to comparison because we expected and verified the word count of journalist articles to far exceed that of the other groups.  We obtained the following scores for unique words out of total used:
+We calculated the ratio of unique words out of the total words used for each work, then used this to make comparisons across both works and groups.  We chose to use this ratio as a method of normalization prior to comparison because we expected and verified that the word count of journalist's articles was far greater than that of the other groups.  We obtained the following scores for percentage of unique words out of total words used:
 
 **Journalists: approx. 42.966%**\
 Poets:       approx. 33.086%\
@@ -89,7 +89,7 @@ Below we can see the corresponding work for the most used words.
 We wondered: would a higher word count necessarily result in a decrease in the ratio of unique words out of the total?  That is, in writings where choruses are common (songs and poetry), would a higher word count simply mean that the work is more repetitive?
 Surprisingly, looking at the graph below we see that songs appear to become MORE repetitive as total lyrics decrease!
 
-![images/poets_vs_songwriters_unique_ratio.png](images/poets_vs_songwriters_unique_ratio.png)
+![images/poets_vs_songwriters_unique_ratio.png](images/poets_vs_songwriters_unique_ratio.png)</br>
 
 What is the most commonly used word across all works?  Can you guess?
 
